@@ -6,32 +6,15 @@
 
     <link rel="stylesheet" href="CSS/resset.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--nao coloquei o link pq nao funcionou a imagem da casa-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/estilo.css">
-
-    <title>GEEAD - Tecnico de Des. de sistemas</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>GEEAD - Tecnico de Desenvolvimento de Sistemas</title>
     
-    <style>
-        /*Definimos que a sidebar tera uma largura de 120px e a cor do fundo #222*/
-        .w3-sidebar{
-            width: 120px;
-            background: #222;
-        }
-        /*Define fonte para todas as tags listadas abaixo*/
-        body, h1, h2, h3, h4, h5, h6 {font-family: "Montserrat", sans-serif;}
-        #main{margin-left: 120px;}
-
-        .w3-row-padding img{margin-bottom: 12px;}
-
-        /*Esse código faz com que quando o nosso site for exibido em dispositivos com tela deno máximo 600px de
-largura, o elemento com o id “#main” defina sua margem esquerda com o valor zero.
-*/
-        @media only screen and (max-width:600px) {#main{margin-left: 0;}}
-    </style>
 </head>
 <body class="w3-black">
     
-    <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small" >
+    <nav >
         <!--Home-->
         <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
             <i class="fa fa-home w3-xxlarge"></i>
@@ -71,7 +54,6 @@ largura, o elemento com o id “#main” defina sua margem esquerda com o valor 
         </a>
     </nav>
 
-    <!--inserir segunda nav-->
     <div class="w3-top w3-hide-large w3-hide-medium">
         <nav class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
             <a href="#home" class="w3-bar-item w3-button" style="width:25%">HOME</a>
@@ -81,9 +63,8 @@ largura, o elemento com o id “#main” defina sua margem esquerda com o valor 
             
         </nav>
     </div>
-    <!--Página- home-->
+
     <div class="w3-padding-large" id="main">
-        <!--Header-->
         <header class="w3-container w3-padding-32 w3-center" id="home">
         <h1>
             <img src="IMG/logoCab.png" alt="Logo GEEAD" class="w3-image" width="50%">
@@ -96,7 +77,6 @@ largura, o elemento com o id “#main” defina sua margem esquerda com o valor 
         </header>
     </div>
 
-    <!--Sobre-->
     <div class="w3-content w3-padding-64" id="sobre" >
         <h2 class="w3-hover-text-cyan">Sobre o curso</h2>
         <hr style="width: 200px;" class="w3-opacity">
@@ -343,9 +323,5 @@ placeholder="Assunto" required name="Assunto">
         </p>
      </form>
 </div>
-
-    <!---->
-
-
 </body>
 </html>
